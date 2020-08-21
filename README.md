@@ -1,2 +1,2 @@
 # Cooking-recipe
-Spagetti
+Omelette
