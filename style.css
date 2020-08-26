@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
 
+
 .background {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    background-image: url("http://www.glowkitchen.com/wp-content/uploads/2014/03/omelet.jpeg");
     text-align: center;
-    margin: 15% 35% 15% 35%;
+    margin: 0% 30% 5% 30%;
+
 }
 
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 45px;
     color: rgb(167, 87, 55);
 }
-h4 {
+p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    color: rgb(167, 87, 55);
+    font-size: 21px;
+    color: rgb(71, 39, 27);
     line-height: 0.5;
 }   
 .subheading {
     font-family: cursive;
     font-size: large;
     
-}
+}   
 .content {
     font-weight: bold;
-    font-size: x-large
+    font-size: x-large;
     
+}
+.bg-image {
+    background-image: url("http://www.glowkitchen.com/wp-content/uploads/2014/03/omelet.jpeg");     
+    filter: blur (5px);
+    -webkit-filter: blur(5px);  
+    filter: brightness(20);
+    filter: contrast(200%);
+    filter: drop-shadow(16px 16px 20px white);
+    filter: grayscale(50%); 
+    height: auto;
+    width: auto;
 }
