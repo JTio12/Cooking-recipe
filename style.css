@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
 
 .background {
-    text-align: center;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
     background-image: url("http://www.glowkitchen.com/wp-content/uploads/2014/03/omelet.jpeg");
-    image-resolution: auto;
+    text-align: center;
     margin: 15% 35% 15% 35%;
 }
 
