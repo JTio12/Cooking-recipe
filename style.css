@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+.background {
+    text-align: center;
+    background-image: url("http://www.glowkitchen.com/wp-content/uploads/2014/03/omelet.jpeg");
+    image-resolution: auto;
+    margin: 15% 35% 15% 35%;
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(167, 87, 55);
+}
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(167, 87, 55);
+    line-height: 0.5;
+}   
+.subheading {
+    font-family: cursive;
+    font-size: large;
+    
+}
+.content {
+    font-weight: bold;
+    font-size: x-large
+    
+}
